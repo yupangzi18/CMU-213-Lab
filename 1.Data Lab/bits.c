@@ -260,7 +260,7 @@ int isLessOrEqual(int x, int y) {
 /*
  * If x <= y, there are two cases.
  * 1.x and y have the different sign, and x is negative.
- * 2.x and y have the same sign, y - x = y + ~(x + 1) >= 0.
+ * 2.x and y have the same sign, y - x = y + (~x) + 1 >= 0.
  */
   int signx = !(x >> 31);
   int signy = !(y >> 31);

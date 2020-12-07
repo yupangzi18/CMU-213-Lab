@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/JonnyKong/CMU-15-213-Intro-to-Computer-Systems.svg?branch=master)](https://travis-ci.org/JonnyKong/CMU-15-213-Intro-to-Computer-Systems)
 
-Notes and labs for the course 15-213 Introduction to Computer Systems at CMU
+Notes and labs for the course 15-213 Introduction to Computer Systems at CMU referenced from JonnyKong.
 
 # Integer representation
 * Data types
@@ -453,13 +453,13 @@ Notes and labs for the course 15-213 Introduction to Computer Systems at CMU
         * However, we can control when handlers run by blocking
     * Explicitly waiting for signals: suppose handler sets global variable `pid`:
         * Spin wait: `while(!pid) {}`
-            
+          
             * Wasteful
         * Pause: `while(!pid) pause()`
-            
+          
             * Race condition
         * Sleep: `while(!pid) sleep(1)`
-            
+          
             * Too slow
         * Solution: `sigsuspend`
             * `int sigsuspend(const sigset_t *mask)`
@@ -528,7 +528,7 @@ Notes and labs for the course 15-213 Introduction to Computer Systems at CMU
         * After calling `dup2(4, 1)`:  
             <img src="Note_Images/open_files3.png" width=60%>  
 * Recommended references:
-    
+  
     * W. Richard Stevens & Stephen A. Rago, _Advanced Programming in the Unix Environment_, 2 nd Edition, Addison Wesley, 2005
 
 # Virtual Memory: Systems

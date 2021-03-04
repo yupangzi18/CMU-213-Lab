@@ -1,7 +1,5 @@
 # CMU-15-213-Intro-to-Computer-Systems
 
-[![Build Status](https://travis-ci.org/JonnyKong/CMU-15-213-Intro-to-Computer-Systems.svg?branch=master)](https://travis-ci.org/JonnyKong/CMU-15-213-Intro-to-Computer-Systems)
-
 Notes and labs for the course 15-213 Introduction to Computer Systems at CMU referenced from JonnyKong.
 
 # Integer representation
